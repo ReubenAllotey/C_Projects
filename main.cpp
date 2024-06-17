@@ -83,7 +83,29 @@ int main() {
 // to generate random numbers
 
 //
+// looping /for loop/while loop/do while loop
 
+//for (int i=0;i<10;i++){
+//    cout<<i<<endl;
+//}
+
+//int i;
+//while (i<10) {
+//    cout << i << endl;
+//    i++;
+//}
+//int i=100;
+//do{
+//  cout<<i<<endl;
+//  i-=10;
+//}while(i<10);
+
+// loop operations /break operator/ continue operator
+
+
+    for (int i=0;i<15;i++){
+        if (i==10)
+            break;
 
 
 
