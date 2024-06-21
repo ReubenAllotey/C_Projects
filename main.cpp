@@ -103,10 +103,10 @@ int main() {
 // loop operations /break operator/ continue operator
 
 
-    for (int i=0;i<15;i++){
-        if (i==10)
+    for (int i=0;i<15;i++) {
+        if (i == 10)
             break;
-
+    }
 
 
      return 0;
