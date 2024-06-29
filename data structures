@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+//dealing with data structures
+// why do we need data structures
+
+
+/* creating structures*/
+struct tree {
+    string name;
+    int ages;
+    bool is_alive;
+    float height;
+
+    void get_info() {
+        cout << name << "-" << ages << endl;
+    }
+};
+int main (){
+/* objects*/
+ tree oak;
+oak.name="Oak";
+oak.ages=24;
+
+tree fir;
+fir.name="Fir";
+fir.ages=34;
+
+//cout<<oak.name<<"-"<<fir.name<<endl;
+
+oak.get_info();
+fir.get_info();
+
+    return 0;
+}
