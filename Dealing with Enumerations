@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+enum options {
+    open ,
+    close,
+    wait,
+    del,
+};
+
+struct file{
+    float weight;
+string name;
+options options;
+};
+
+
+int main (){
+//dealing with  enumeration and data structure
+
+file my_File;
+my_File. weight=2.3f;
+my_File.name="test.txt";
+my_File.options=options::close;
+
+//cout<<my_File.options;
+
+/*condition and enumerations */
+
+if(my_File.options==options::close){
+    cout<<"file is closed";
+}
+
+
+return 0;
+}
