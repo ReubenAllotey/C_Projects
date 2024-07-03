@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+//  creating classes and objects
+
+class building {
+public://(you can use private or protected  depending on field  you are working on 
+    int year;
+    string type;
+    void get_info(){
+    cout<<"type:"<<type<<".year:"<<year<<endl;
+    }
+
+};
+
+
+
+int main (){
+building school;
+school.type="school";
+school.year=200;
+school.get_info();
+
+
+building house;
+house.type="house";
+house.year=1999;
+house.get_info();
+
+
+return 0;
+}
