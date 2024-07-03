@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void divide(float a,float b){
+    if (b==0)throw 33;
+    else cout<<(a/b);
+}
+
+
+int main (){
+// division functions,try catch errors
+try{
+    divide (5.43f,0);
+}
+
+catch (int err){
+    if (err==33)cout<<"Error dividing by zero";
+}
+
+
+return 0;
+}
