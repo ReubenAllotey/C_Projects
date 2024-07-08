@@ -1,0 +1,52 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+template <class T>
+class arrays{
+private:
+    T *arr;
+    int len;
+
+public:
+    arrays(T* a, int len){
+        this-> len=len;
+        arr=new T[ len];
+
+        for(int i=0;i<len;++i )
+            *(arr +i )=*(a+i);
+
+
+
+
+    }
+    void get(){
+        for(int i=0; i<len;++i )
+            cout <<*(arr +i )<<" ";
+        cout<<endl;
+    }
+
+    ~arrays(){
+        delete[]arr;
+    }
+
+};
+
+
+
+int main (){
+   int arr1[]={4,6,9,3};
+arrays <int>obj1(arr1,4);
+obj1.get();
+
+
+
+float arr2[]={3.56f,6.7f,9.0f,1.11f};
+arrays<float>obj2(arr2,4);
+obj2.get();
+
+
+
+
+return 0;
+}
