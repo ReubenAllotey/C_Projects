@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+
+//assigment operators
+/*
+ * ['='
+ * a=6
+ * a+=a+1
+ * a-=a-1]
+ * [conditional operator; '?:'
+ * format ;condition? expression:expression2]
+ * [size of()]
+ * [address of a variable'&']
+ * [miscellaneous operators
+ * ()operand ]
+ */
+
+using namespace std;
+
+int main (){
+//miscellaneous operators
+/*float a=4.335;
+cout<<(int)a<<endl;
+cout <<a<<endl;*/
+
+//conditional operator and size of
+int a=5,b=3;
+cout<<"maximum is :"<<((a>b)?a:b)<<endl;
+cout<<sizeof (a);
+
+
+
+
+    return 0;
+}
