@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+// control structures [IF STATEMENTS]
+//general syntax
+/* if(condition)
+ *    statement*/
+
+using namespace std;
+
+int main (){
+int money;
+cout<<"how do you have:"<<endl;
+cin>>money;
+if(money<=100){
+    cout<<"you can go the restaurant "<<endl;
+}
+
+cout<<"stay at home !";
+
+
+    return 0;
+}
