@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+// switch case statements
+/*general syntax:
+switch(expression){
+case value:
+     Block of string;
+            break;
+case2 value
+     block of string2;
+           break;
+..
+..
+..
+ case value n;
+       block of string ;
+           break ;
+
+default ;
+      default statement;
+       break;
+}
+
+*/
+int main()
+{
+    int ch;
+    cout << "enter your choice:" << endl;
+    cin >> ch;
+    switch (ch)
+    {
+    case 1:
+        cout << "i want to know my balance.";
+        break;
+    case 2:
+        cout << "i want to register a complaint.";
+        break;
+    case 3:
+        cout << "i want to talk to a customer care executive.";
+        break;
+
+    default:
+        cout << "enter a valid choice .";
+
+        break;
+    }
+
+    return 0;
+}
