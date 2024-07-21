@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+// working with loops[while LOOPS]
+/*
+general syntax:
+while( condition){
+      block of statement
+      };
+
+
+
+*/
+int main()
+{
+    int i;
+    // cout << "Enter a numner greater thsn 6:" << endl;
+    // cin >> i;
+
+    // while (i <= 6)
+    // {
+    //     cout << "please  enter a number greater than 6:" << endl;
+    //     cin >> i;
+    // }
+    // cout << "thanks";
+
+    cout << "Enter a positive number:" << endl;
+    cin >> i;
+    cout << "let begin a count down👍!" << endl;
+    while (i > 0)
+    {
+        cout << i << "\n";
+        i--;
+    }
+    return 0;
+}
