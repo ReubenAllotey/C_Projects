@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+// working with loops[ do-while LOOPS]
+/*
+general syntax:
+do
+{
+statement block;
+
+}while(condition);
+
+
+*/
+int main()
+{
+    int len, breadth;
+    int area = 0;
+    char choice;
+    do
+    {
+        cout << "enter the value of length and breadth" << endl;
+        cin >> len >> breadth;
+        area = len * breadth;
+        cout << "the area is " << area << endl;
+        cout << "do you want to continue (Y/N)" << endl;
+        cin >> choice;
+    } while (choice == 'y' || choice == 'Y');
+    cout << "<out of the loop" << endl;
+    return 0;
+}
